@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness World</title>
+    <style>
+        body {
+            background: url(jelmer-assink-gzeTjGu3b_k-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            margin: 0px;
+        }
+
+        .logobar {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .left {
+            background-color: white;
+            border: 1px solid green;
+            height: 66px;
+
+        }
+
+        .mid {
+            display: inline-block;
+            width: 40%;
+            /* border: 1px solid red; */
+            margin: 0px 460px;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 30px;
+            display: inline-block;
+            /* border: 1px solid blue; */
+            padding-top: 17px;
+        }
+
+        .logobar .left img {
+            padding-left: 520px;
+            height: 55px;
+        }
+
+        .name {
+            display: inline-block;
+            padding: 0px;
+            margin: 23px;
+            font-size: larger;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+        }
+
+        .menu {
+            display: inline-block;
+        }
+
+        a:hover {
+            color: rgb(47, 46, 46);
+            text-decoration: underline;
+        }
+
+        .btn1 {
+            width: 75px;
+            height: 20px;
+            cursor: pointer;
+
+        }
+
+        .btn2 {
+            width: 75px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .btn1:hover,
+        .btn2:hover {
+            color: rgb(47, 46, 46);
+            text-decoration: underline;
+        }
+
+        .details {
+            /* display: inline-block; */
+            border: 1px solid white;
+            height: 245px;
+            width: 430px;
+            margin: 62px 100px;
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .inputs{
+            padding-top: 10px;
+        }
+        .sub{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="logobar">
+        <div class="left">
+            <img src="logo.jpg" alt="logoimage" height="30px">
+            <h3 class="name">Fitness World</h3>
+        </div>
+        <div class="mid">
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn1">Sign in</button>
+            <button class="btn2">Sign up</button>
+        </div>
+    </header>
+    <div class="details">
+        <h3 class="heading">Join Fitness World now!!</h3>
+        <div class="inputs">
+            <div><input type="text" name="name" class="in1" placeholder="Name"></div>
+            <div></div><input type="number" name="Age" class="in2" placeholder="Age"></div>
+            <div><input type="text" name="gender" class="in3" placeholder="Gender"></div>
+            <div><input type="text" name="place" class="in4" placeholder="Place"></div>
+            <div><input type="number" name="Phno" class="in5" placeholder="Ph.No"></div>
+            <button class="sub">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
